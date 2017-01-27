@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".QuestionActivity"
+    android:background="@drawable/bg28">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. ในภาพคือสัตว์อะไร?"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="@dimen/image"
+        android:id="@+id/imageView"
+        android:src="@drawable/t7"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ragChoice"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ละมั่ง"
+            android:id="@+id/radioButton"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textColorLink="?android:attr/colorPressedHighlight" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="สมเสร็จ"
+            android:id="@+id/radioButton2"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textColorLink="?android:attr/colorPressedHighlight" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เก้งหม้อ"
+            android:id="@+id/radioButton3"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textColorLink="?android:attr/colorPressedHighlight" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="กระซู่"
+            android:id="@+id/radioButton4"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            android:textColorLink="?android:attr/colorPressedHighlight" />
+    </RadioGroup>
+</RelativeLayout>

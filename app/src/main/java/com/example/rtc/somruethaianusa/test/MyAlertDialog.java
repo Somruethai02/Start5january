@@ -1,0 +1,33 @@
+package com.example.rtc.somruethaianusa.test;
+
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+
+/**
+ * Created by masterUNG on 2/8/15 AD.
+ */
+public class MyAlertDialog {
+
+    private AlertDialog.Builder objAlert;
+
+
+    public void answer(Context context, String strTitle) {
+
+        objAlert = new AlertDialog.Builder(context);
+        objAlert.setIcon(R.drawable.danger);
+        objAlert.setTitle(strTitle);
+        objAlert.setMessage("กรุณาตอบคำถามด้วยนะคะ");
+        objAlert.setCancelable(false);
+        objAlert.setPositiveButton("ตกลง", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        objAlert.show();
+
+
+    }
+
+}   // Main class

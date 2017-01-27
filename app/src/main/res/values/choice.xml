@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="time2">
+
+        <item>สมัน</item>
+        <item>กวางผา</item>
+        <item>นกกระเรียน</item>
+        <item>แรด</item>
+
+    </string-array>
+    <string-array name="time3">
+
+        <item>นกยูงไทย</item>
+        <item>นกเงือก</item>
+        <item>นกกระเรียน</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+
+    </string-array>
+    <string-array name="time4">
+
+        <item>แมวลายหินอ่อน</item>
+        <item>กูปรี</item>
+        <item>กระทิง</item>
+        <item>นกยูงไทย</item>
+
+    </string-array>
+    <string-array name="time5">
+
+        <item>เต่าตะนุ</item>
+        <item>พะยูน</item>
+        <item>กบทูต</item>
+        <item>กิ้งก่า</item>
+
+    </string-array>
+    <string-array name="time6">
+
+        <item>สมัน</item>
+        <item>เลียงผา</item>
+        <item>กระรอกบิน</item>
+        <item>คางคกห้วย</item>
+
+    </string-array>
+    <string-array name="time7">
+
+        <item>ไก่ป่า</item>
+        <item>งูหลาม</item>
+        <item>ปู่เจ้าฟ้า</item>
+        <item>กระจง</item>
+
+    </string-array>
+    <string-array name="time8">
+
+        <item>นกกระเรียน</item>
+        <item>นกกางเขนดง</item>
+        <item>นกแก้ว</item>
+        <item>นกเงือก</item>
+
+    </string-array>
+    <string-array name="time9">
+
+        <item>นกแก้ว</item>
+        <item>นกยูงไทย</item>
+        <item>นกเจ้าฟ้าหญิงสิรินธร</item>
+        <item>นกเงือก</item>
+
+    </string-array>
+    <string-array name="time10">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+
+</resources>

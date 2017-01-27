@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
     }   // Main Method
 
+    public void clickQuestionMain(View view) {
+        startActivity(new Intent(MainActivity.this, QuestionActivity.class));
+    }
+
     public void clickNewPlayGame(View view) {
         startActivity(new Intent(MainActivity.this, PlayGame1.class));
     }
