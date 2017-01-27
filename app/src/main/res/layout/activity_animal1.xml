@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animal1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rtc.somruethaianusa.test.Animal1"
+    android:background="@drawable/rrr">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="@string/animala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="     สัตว์ป่าสงวน เป็นสัตว์ป่าที่หายากและปัจจุบันมีจำนวนน้อยมากบางชนิดสูญพันธุ์ไปแล้วมีอยู่ 15 ชนิด คือ นกเจ้าฟ้าหญิงสิรินธร แรด กระซู่ กูปรีหรือโคไพร ควายป่า ละองหรือละมั่ง สมันหรือ เนื้อสมัน เลียงผา นกแต้วแล้วท้องดำ นกกระเรียน แมวลายหินอ่อน สมเสร็จ เก้งหม้อและพะยูนหรือหมูน้ำ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

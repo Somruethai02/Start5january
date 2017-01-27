@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_five"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rtc.somruethaianusa.test.fiveActivity"
+    android:background="@drawable/jjdd">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/home"
+        android:id="@+id/imageButton47"
+        android:onClick="onClickvoo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/zoo"
+        android:id="@+id/imageButton46"
+        android:onClick="onClickjoo"
+        android:background="@null"
+        android:layout_marginBottom="111dp"
+        android:layout_above="@+id/imageButton47"
+        android:layout_alignStart="@+id/imageButton45" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/voo"
+        android:id="@+id/imageButton45"
+        android:onClick="onClickaoo"
+        android:background="@null"
+        android:layout_above="@+id/imageButton46"
+        android:layout_toStartOf="@+id/imageButton47"
+        android:layout_marginBottom="78dp" />
+</RelativeLayout>

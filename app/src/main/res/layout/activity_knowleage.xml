@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_knowleage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rtc.somruethaianusa.test.KnowleageActivity"
+    android:background="@drawable/rrr">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linKnowleage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="@string/title_know"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="       สัตว์ป่า คือ สัตว์ทุกชนิดไม่ว่า สัตว์บก สัตว์น้ำ สัตว์ปีก แมลง หรือแมง ซึ่งโดยภาพธรรมชาติย่อมเกิดและดำรงชีวิตอยู่ในป่าหรือในน้ำและให้หมายความรวมถึงไข่ของสัตว์ป่าเหล่านั้นทุกชนิดด้วย แต่ไม่หมายความรวมถึงสัตว์พาหนะที่ได้จดทะเบียนทำตั๋วรูปพรรณตามกฎหมาย ว่าด้วยสัตว์พาหนะแล้วและสัตว์พาหนะที่ได้มาจากการสืบพันธุ์ของสัตว์พาหนะ ดังกล่าว ตั้งแต่อดีตจนถึงปัจจุบัน ป่าไม้ อันเป็นแหล่งที่อยู่อาศัยของสัตว์ป่าได้ถูกทำลายลงไปมาก ตลอดจนการไล่ล่าของมนุษย์จึงทำให้ปริมาณสัตว์ป่ามีจำนวนลดน้อยลงทุกปีจนบางชนิดสูญพันธุ์บางชนิดก็ใกล้จะสูญพันธุ์เพื่อรักษาความสมดุลทางธรรมชาติจึงจำเป็นที่เราจะต้องช่วยกันอนุรักษ์สัตว์ป่าไว้โดยเร่งด่วน"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pic_know1"
+                android:id="@+id/imageView2"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:text="     การเลี้ยงสัตว์ป่าในลักษณะเป็นสัตว์เศรษฐกิจ ช่วยลดการทำลายสัตว์ป่าได้"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/contentv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:text="      สัตว์ป่าอำนวยประโยชน์นานาประการให้แก่มนุษย์และทรัพยากรธรรมชาติอื่น ๆ มากมาย อย่างไรก็ตามประโยชน์ส่วนใหญ่เป็นไปในทางอ้อมมากกว่าทางตรงจึงทำให้มองไม่ค่อยเห็นคุณค่าของสัตว์ป่าเท่าที่ควร เมื่อเทียบกับทรัพยากรธรรมชาติอื่น ๆ เช่น ป่าไม้ น้ำ และแร่ธาตุ เป็นต้น ตัวอย่างคุณค่าของสัตว์ป่า เป็นต้นว่า"
+                android:elevation="0dp" />
+
+            <TextView
+                android:text="          1. ด้านเศรษฐกิจ ประโยชน์ด้านเศรษฐกิจที่มนุษย์ได้จากสัตว์ป่าก็ได้แก่การค้าสัตว์ป่า หรือซากของสัตว์ป่าโดยเฉพาะหนังสือป่าในปีหนึ่ง ๆ ทำรายได้ให้กับประเทศและมีเงินหมุนเวียนภายในประเทศจำนวนไม่น้อย คุณค่าทางด้านเศรษฐกิจจะรวมถึงรายได้ต่าง ๆ จากการท่องเที่ยวในการชมสัตว์ด้วย"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="         2. การเป็นอาหาร มนุษย์ได้ใช้เนื้อของสัตว์ป่าเป็นอาหารเป็นเวลาช้านานแล้ว ซึ่งสัตว์ป่าหลายชนิดก็ได้พัฒนาจนกระทั่งกลายเป็นเลี้ยงไป สัตว์ป่าหลายชนิดตามธรรมชาติคนก็ยังนิยมใช้เนื้อเป็นอาหารอยู่ เช่น หมูป่า เก้ง กวาง กระจง กระทิง นกเขาเปล้า นกเป็ดน้ำ ตะกวด แย้ เป็นต้น อวัยวะของสัตว์ป่าบาง อย่าง เช่น นอแรด กระโหลก เลียงผา เขากวางอ่อน เลือดและกระเพาะค่าง ดีของหมี ดีงูเห่า ก็ยังมีผู้นิยมดัดแปลงเป็นอาหาร หรือใช้เป็นเครื่องยาสมุนไพรอีกด้วย"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pic"
+                android:id="@+id/imageView5"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:text="@string/contentv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textSize="18sp"
+                android:layout_marginLeft="150dp"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ii"
+                android:id="@+id/imageView6" />
+
+            <TextView
+                android:text="@string/contentv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_marginLeft="150dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="          3. เครื่องใช้เครื่องประดับ นอกจากเนื้อของสัตว์ป่าและส่วนต่าง ๆ ของสัตว์ป่าจะใช้เป็นอาหารและยาแล้ว อวัยวะบางอย่างของสัตว์ป่าก็ยังใช้ประโยชน์ต่าง ๆ ได้อีกมากมาย เช่น หนังใช้ทำกระเป๋า รองเท้า เครื่องนุ่งห่ม งาช้าง ใช้เป็นเครื่องประดับ กระดูก เขาสัตว์ใช้ทำด้ามมีดด้ามเครื่องมือ หรือแกะสลักต่าง ๆ เป็นต้น"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="          4. การนันทนาการและด้านจิตใจ นับเป็นคุณค่าอันยิ่งใหญ่ของสัตว์ป่า แต่ไม่สามารถประเมินเป็นตัวเงินได้โดยง่าย การท่องเที่ยวชมสัตว์ป่าในสวนสัตว์ อุทยานแห่งชาติ เขตรักษาพันธุ์สัตว์ป่าและแหล่งสัตว์ป่าอื่น ๆ นับเป็นเรื่องนันทนาการทั้งสิ้นเช่นเดียวกับการสงสารสัตว์ป่าที่ถูกทรมาน กักขัง หรืออื่นใดก็ตามที สัตว์อยู่อย่างไม่ผาสุกก็เป็นเรื่องจิตใจ รวมตลอดทั้งการท่องเที่ยวป่าเห็นสัตว์ป่าหรือไม่เห็นสัตว์ป่า ซึ่งควรประดับความงามตามธรรมชาติเป็นทั้งนันทนาการและด้านจิตใจทั้งสิ้น"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="          5. ด้านวิทยาศาสตร์ การศึกษา และการแพทย์ สัตว์ป่านับมีคุณค่าใหญ่หลวงที่ทำให้นักวิทยาศาสตร์ นักการศึกษาและแพทย์ ประสบผลสำเร็จในด้านการค้นคว้าทดลองต่าง ๆ โดยขั้นแรกเขาทดลองกับสัตว์ป่าเสียก่อน เช่น ทดลองกับหนู กระแต ลิง จากนั้นจึงนำไปใช้กับคนการค้นคว้า ทดลองเหล่านี้หากไม่มีสัตว์ป่าเป็นเครื่องทดลองก่อนแล้ว ก็อาจจะมีผลสะท้อนถึงคนอย่างมาก"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="           6. เป็นตัวควบคุมสิ่งมีชีวิตอื่น ๆ สัตว์ป่านับได้ว่าเป็นตัวควบคุมสิ่งมีชีวิตอื่น ๆ โดยเฉพาะอย่างยิ่งสัตว์ด้วยกันเอง ทำให้ผลกระทบต่อคนบรรเทาเบาบางลงไปไม่มากก็น้อย เช่น ค้างคาวกินแมลง นกฮูกและงูสิงกินหนูต่าง ๆ นกกินตัวหนอนที่ทำลายพืชเศรษฐกิจ เป็นต้น ซึ่งหากไม่มีสัตว์ป่าต่าง ๆ ดังกล่าวแล้วคนอาจจะต้องเสียเงินทองจำนวนมากกว่าเป็นอยู่ในปัจจุบันที่จะต้องกำจัดศัตรูทั้งทางตรงและทางอ้อมเหล่านี้"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="          7. คุณค่าของสัตว์ป่าต่อทรัพยากรธรรมชาติอื่น ๆ คนส่วนใหญ่มองเห็นความสัมพันธ์ระหว่างทรัพยากรธรรมชาติต่าง ๆ อย่างชัดเจน โดยเฉพาะทรัพยากรป่าไม้ เป็นต้นว่า ป่าไม้ทำให้สัตว์ป่ามีที่อยู่อาศัย เป็นอาหาร และเป็นที่หลบภัย ป่าไม้ทำให้ดินอุดมสมบูรณ์ ป้องกันการกัดเซาะของน้ำ ลม ป่าไม้ช่วยทำให้มีน้ำไหลตลอดปี น้ำใสสะอาดปราศจากตะกอน ป่าไม้ช่วยทำให้ฝนตก บรรเทากระแสลมพายุ ป่าไม้ทำให้อากาศไม่ร้อนไม่หนาว ป่าไม้เป็นแหล่งสะสมแร่ธาตุและป่าไม้ทำให้มนุษย์ได้ใช้สอย ขาดป่าไม้ทรัพยากรธรรมชาติอื่น ๆ ก็อยู่ไม่ได้ ทำนองเดียวกันกับทรัพยากรธรรมชาติอื่น ๆ ที่คนจะมองเห็นความสัมพันธ์ซึ่งกันและกัน ทั้งนี้ยกเว้นสัตว์ป่ามักจะมองเห็นเฉพาะต้องอาศัยทรัพยากรธรรมชาติอื่น ๆ เท่านั้น แต่ในข้อเท็จจริงแล้ว สัตว์ป่าก็มีผลต่อทรัพยากรธรรมชาติอื่น ๆ ไม่น้อยเช่นเดียวกัน อย่างเช่นทรัพยากรป่าไม้ สัตว์ป่า ก็มีส่วนช่วยหลายอย่าง เช่น"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="               7.1 สัตว์ป่าช่วยทำลายศัตรูป่าไม้ ต้นไม้ในป่าจะมีศัตรูตามธรรมชาติเสมอ ๆ เช่น โรคและแมลง เป็นต้น แต่ศัตรูเหล่านี้จะไม่ระบาด โดยเฉพาะแมลงหากมีตัวทำลายสัตว์ป่าหลายชนิดเป็นตัวกำจัดแมลงนอกจากที่กล่าวไปแล้วก็มี เช่น นกหัวขวาน นกไต่ไม้ จะกินแมลงและตัวหนอน ตามลำต้น นกกินแมลง นกจับแมลง จะกินแมลงที่มาทำลายใบ ดอก และผล ตุ่น หนูผี จะกินหนอนที่มากินรากและลำต้นใต้ดิน หากปราศจากสัตว์เหล่านี้แล้วต้นไม้จะได้รับความเสียหายและอาจจะตายในที่สุด"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="              7.2 สัตว์ป่าช่วยผสมเกสรดอกไม้ ต้นไม้ผสมเกสรได้นั้นอาศัยปัจจัยหลายอย่างช่วย เช่น ลม และแมลงสำหรับสัตว์ป่าบางชนิดก็เป็นตัวที่ช่วยผสมเกสรด้วย เช่น นกกินปลี นกปลีกล้วย และค้างคาวกินน้ำหวานดอกไม้ เป็นต้น สัตว์ป่าเหล่านี้จะช่วยผสมเกสรดอกไม้ในขณะที่กินน้ำหวานดอกไม้จากดอกหนึ่งไปยังอีกดอกหนึ่งหรือจากต้นหนึ่งไปยังอีกต้นหนึ่ง ทำนองเดียวกับลมและแมลงดังกล่าวแล้ว"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="               7.3 สัตว์ป่าช่วยในการกระจายเมล็ดพันธุ์ไม้ สัตว์ป่าบางชนิด เช่น นกขุนทอง นกเงือก ค้างคาวบางชนิด ลิง ค่าง ชะนี กวาง เก้ง กระทิง วัวแดง เป็นต้น จะกินผลไม้เป็นอาหาร แล้วคายหรือถ่ายเมล็ดออกมาตามที่ต่าง ๆ เมล็ดไม้บางชนิดไม่ได้รับความเสียหายใด ๆ ในการผ่านกระเพาะของสัตว์เหล่านี้ก็เท่ากับสัตว์ป่าช่วยในการกระจายเมล็ดพันธุ์ไม้ไปในที่ต่าง ๆ ที่สัตว์ท่องเที่ยวไปแล้วคายหรือถ่ายเมล็ดไม้ออกมา"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="               7.4 สัตว์ป่าช่วยทำให้ดินอุดมสมบูรณ์ยิ่งขึ้น มูลของสัตว์เกือบทุกชนิดใช้เป็นปุ๋ยได้อย่างดี เท่ากับเพิ่มความอุดมสมบูรณ์ให้กับดิน ในขณะเดียวกันเมื่อสัตว์ป่าตายลง ซากของสัตว์ป่าก็จะกลายเป็นปุ๋ยได้เช่นเดียวกัน ทุกวันนี้เกิดปัญหาการดัดแปลงมูลของสัตว์ป่าบางชนิด เช่น มูลของค้างคาว ซึ่งมีอยู่มากมายตามถ้ำต่าง ๆ ให้ใช้อย่างถูกต้อง ก็จะทำให้แก้ปัญหาต่าง ๆ ได้ ทุกวันนี้แม้ว่าจะใช้มูลค้างคาวเป็นปุ๋ยอยู่บ้าง ก็อยู่เฉพาะในวงจำกัด ในปัจจุบันวงการป่าไม้เองก็ต้องใช้ปุ๋ยในสวนป่าเหมือนกันทั้งนี้เนื่องจากการทำงานสัตว์ป่าออกไปเกือบหมดป่านั่นเอง"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/redg"
+                android:id="@+id/imageView7"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:text="@string/contentv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:layout_marginLeft="150dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="@string/contentv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="     ในปัจจุบันสัตว์ป่ามีจำนวนลดน้อยลงมาก ชนิดที่สมัยก่อนมีอยู่ชุกชุมก็ไม่ค่อยได้พบเห็นอีกบางชนิดก็ถึงกับสูญพันธุ์ไปเลย ปัญหานี้สาเหตุมาจาก"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="     1. ถูกทำลายโดยการล่าโดยตรงไม่ว่าจะล่าเพื่ออาหารหรือเพื่อการกีฬาหรือเพื่ออาชีพ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="     2. การสูญพันธุ์หรือลดน้อยลงไปตามธรรมชาติของสัตว์ป่าเอง ถ้าหากไม่สามารถปรับตัวให้เข้ากับความเปลี่ยนของสภาพแวดล้อมได้ หรือจากสาเหตุภัยธรรมชาติต่าง ๆ เช่น น้ำท่วม ไฟป่า"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="     3. การนำสัตว์ป่าต่างถิ่น (Exotic aminal) เข้าไปในระบบนิเวศสัตว์ป่าประจำถิ่น ทำให้เกิดผลกระทบต่อระบบนิเวศ ความสมดุลของสัตว์ป่าประจำถิ่นจนอาจเกิดการสูญพันธุ์"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="     4. การทำลายถิ่นที่อยู่อาศัยของสัตว์ป่า ซึ่งก็ได้แก่การที่ป่าไม้ถูกทำลายด้วยวิธีการต่าง ๆ ไม่ว่าจะโดยถากถางและเผาเพื่อทำการเกษตรกิจกรรมการพัฒนา เช่น การตัดถนนผ่านเขตป่า การสร้างเขื่อน ฯลฯ ทำให้สัตว์ป่าบางส่วนต้องอพยพไปอยู่ที่อื่นหรือไม่ก็เสียชีวิตขณะที่ถิ่นที่อยู่อาศัยถูกทำลาย"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="     5. การสูญเสียเนื่องจากสารพิษตกค้าง เมื่อเกษตรกรใช้สารเคมีในการเพาะปลูก เช่น ยาปราบศัตรูพืชจะทำให้เกิดการสะสมพิษในร่างกายทำให้บางชนิดถึงกับสูญพันธุ์ได้"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linKnowleage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="สัตว์ป่าสงวน"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="clickAnimal1"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="สัตว์ป่าคุ้มครอง"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="clickAnimal2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:text="สัตว์ป่า"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginStart="119dp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>

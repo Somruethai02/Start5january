@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rtc.somruethaianusa.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".a1Activity" />
+        <activity android:name=".a2Activity" />
+        <activity android:name=".a3Activity" />
+        <activity android:name=".a4Activity" />
+        <activity android:name=".a5Activity" />
+        <activity android:name=".a6Activity" />
+        <activity android:name=".a7Activity" />
+        <activity android:name=".a8Activity" />
+        <activity android:name=".a9Activity" />
+        <activity android:name=".a10Activity" />
+        <activity android:name=".a11Activity" />
+        <activity android:name=".a12Activity" />
+        <activity android:name=".a13Activity" />
+        <activity android:name=".a14Activity" />
+        <activity android:name=".a15Activity" />
+        <activity android:name=".b1Activity" />
+        <activity android:name=".b2Activity" />
+        <activity android:name=".b3Activity" />
+        <activity android:name=".b4Activity" />
+        <activity android:name=".b5Activity" />
+        <activity android:name=".b6Activity" />
+        <activity android:name=".b7Activity" />
+        <activity android:name=".b8Activity" />
+        <activity android:name=".b9Activity" />
+        <activity android:name=".b10Activity" />
+        <activity android:name=".b11Activity" />
+        <activity android:name=".b12Activity" />
+        <activity android:name=".b13Activity" />
+        <activity android:name=".b14Activity" />
+        <activity android:name=".b15Activity" />
+        <activity android:name=".b16Activity" />
+        <activity android:name=".b17Activity" />
+        <activity android:name=".b18Activity" />
+        <activity android:name=".c1Activity" />
+        <activity android:name=".c2Activity" />
+        <activity android:name=".c3Activity" />
+        <activity android:name=".c4Activity" />
+        <activity android:name=".c5Activity" />
+        <activity android:name=".c6Activity" />
+        <activity android:name=".c7Activity" />
+        <activity android:name=".fiveActivity" />
+        <activity android:name=".c8Activity" />
+        <activity android:name=".c9Activity" />
+        <activity android:name=".c10Activity" />
+        <activity android:name=".c11Activity" />
+        <activity android:name=".c12Activity" />
+        <activity android:name=".c13Activity" />
+        <activity android:name=".c14Activity" />
+        <activity android:name=".c15Activity" />
+        <activity android:name=".c16Activity" />
+        <activity android:name=".c17Activity" />
+        <activity android:name=".c18Activity" />
+        <activity android:name=".c19Activity" />
+        <activity android:name=".c20Activity" />
+        <activity android:name=".c21Activity" />
+        <activity android:name=".c22Activity" />
+        <activity android:name=".c23Activity" />
+        <activity android:name=".c24Activity" />
+        <activity android:name=".c25Activity" />
+        <activity android:name=".c26Activity" />
+        <activity android:name=".c27Activity" />
+        <activity android:name=".c28Activity" />
+        <activity android:name=".c29Activity" />
+        <activity android:name=".c30Activity" />
+        <activity android:name=".c31Activity" />
+        <activity android:name=".c32Activity" />
+        <activity android:name=".c33Activity" />
+        <activity android:name=".KnowleageActivity" />
+        <activity android:name=".Animal1" />
+        <activity android:name=".Animal2" />
+        <activity android:name=".HubAnimal2" />
+        <activity android:name=".Law1" />
+        <activity android:name=".Law2" />
+        <activity android:name=".TypeAnimal" />
+        <activity android:name=".Type1Animal" />
+        <activity android:name=".Type2Animal" />
+        <activity android:name=".PlayGame1" />
+        <activity android:name=".PlayGame2" />
+        <activity android:name=".PlayGame3" />
+        <activity android:name=".PlayGame4" />
+        <activity android:name=".PlayGame5" />
+        <activity android:name=".PlayGame6" />
+        <activity android:name=".PlayGame7" />
+        <activity android:name=".PlayGame8" />
+        <activity android:name=".PlayGame9" />
+        <activity android:name=".PlayGame10" />
+        <activity android:name=".viewing" />
+        <activity android:name=".Gameover"></activity>
+    </application>
+
+</manifest>
