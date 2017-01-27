@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/n"
         android:id="@+id/imageButton3"
-
+        android:onClick="clickQuestionMain"
         android:background="@null"
         android:layout_marginTop="92dp"
         android:layout_below="@+id/imageButton2"
