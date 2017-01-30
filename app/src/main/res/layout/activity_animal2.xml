@@ -49,6 +49,41 @@
                 android:layout_marginTop="20dp"
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/te"
+                android:id="@+id/imageView9"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:text="กระทิง"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="150dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tee"
+                android:id="@+id/imageView10"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:text="ช้างป่า"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

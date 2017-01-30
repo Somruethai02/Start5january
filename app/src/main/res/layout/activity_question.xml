@@ -4,7 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".QuestionActivity"
-    android:background="@drawable/bg28">
+    android:background="@drawable/bg17">
 
     <Button
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:text="Answer"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:textColor="#ffffffff" />
+        android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:text="1. ในภาพคือสัตว์อะไร?"
         android:id="@+id/textView2"
         android:textSize="25dp"
-        android:textColor="#ffffffff"
+        android:textColor="@android:color/background_light"
         android:layout_marginTop="20dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -39,15 +39,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ragChoice"
-        android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true">
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ละมั่ง"
             android:id="@+id/radioButton"
-            android:textColor="#ffffffff"
+            android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textColorLink="?android:attr/colorPressedHighlight" />
 
@@ -56,7 +57,7 @@
             android:layout_height="wrap_content"
             android:text="สมเสร็จ"
             android:id="@+id/radioButton2"
-            android:textColor="#ffffffff"
+            android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textColorLink="?android:attr/colorPressedHighlight" />
 
@@ -65,7 +66,7 @@
             android:layout_height="wrap_content"
             android:text="เก้งหม้อ"
             android:id="@+id/radioButton3"
-            android:textColor="#ffffffff"
+            android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textColorLink="?android:attr/colorPressedHighlight" />
 
@@ -74,7 +75,7 @@
             android:layout_height="wrap_content"
             android:text="กระซู่"
             android:id="@+id/radioButton4"
-            android:textColor="#ffffffff"
+            android:textColor="@android:color/background_light"
             android:textSize="18sp"
             android:textColorLink="?android:attr/colorPressedHighlight" />
     </RadioGroup>

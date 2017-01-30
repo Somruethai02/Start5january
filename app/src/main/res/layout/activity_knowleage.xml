@@ -288,7 +288,10 @@
             android:layout_height="wrap_content"
             android:id="@+id/button"
             android:onClick="clickAnimal1"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
 
         <Button
             android:text="สัตว์ป่าคุ้มครอง"
@@ -296,7 +299,10 @@
             android:layout_height="wrap_content"
             android:id="@+id/button2"
             android:onClick="clickAnimal2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <TextView

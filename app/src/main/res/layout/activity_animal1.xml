@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_animal1"
     android:layout_width="match_parent"
@@ -35,12 +36,63 @@
 
             <TextView
                 android:text="     สัตว์ป่าสงวน เป็นสัตว์ป่าที่หายากและปัจจุบันมีจำนวนน้อยมากบางชนิดสูญพันธุ์ไปแล้วมีอยู่ 15 ชนิด คือ นกเจ้าฟ้าหญิงสิรินธร แรด กระซู่ กูปรีหรือโคไพร ควายป่า ละองหรือละมั่ง สมันหรือ เนื้อสมัน เลียงผา นกแต้วแล้วท้องดำ นกกระเรียน แมวลายหินอ่อน สมเสร็จ เก้งหม้อและพะยูนหรือหมูน้ำ"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView10"
                 android:layout_marginTop="20dp"
                 android:textSize="18sp"
                 android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/re"
+                android:id="@+id/imageView3"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:text="กระซู่"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35"
+                android:layout_marginLeft="150dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reee"
+                android:id="@+id/imageView4"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:text="ควายป่า"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/reeeee"
+                android:id="@+id/imageView8"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:text="นกกระเรียน"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

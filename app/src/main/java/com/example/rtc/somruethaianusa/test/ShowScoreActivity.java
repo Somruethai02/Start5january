@@ -22,7 +22,7 @@ public class ShowScoreActivity extends AppCompatActivity {
         //Get Value From QuestionActivity
         intMyScore = getIntent().getExtras().getInt("Score");
 
-        txtShowScore.setText(Integer.toString(intMyScore) + "/10" );
+        txtShowScore.setText(Integer.toString(intMyScore) + "/50" );
 
 
     }   // onCreate

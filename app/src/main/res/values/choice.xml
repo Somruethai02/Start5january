@@ -73,5 +73,325 @@
         <item>นกแก้ว</item>
 
     </string-array>
+    <string-array name="time11">
+
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกยูงไทย</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time12">
+
+        <item>กระทิง</item>
+        <item>แรด</item>
+        <item>กระซู่</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time13">
+
+        <item>กระจง</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>ควายป่า</item>
+        <item>กระซู่</item>
+
+    </string-array>
+    <string-array name="time14">
+
+        <item>นกเจ้าฟ้าหญิงสิรินธร</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time15">
+
+        <item>นกยูงไทย</item>
+        <item>กระซู่</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time16">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>กูปรี</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time17">
+
+        <item>เลียงผา</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>เก้งหม้อ</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time18">
+
+        <item>นกยูงไทย</item>
+        <item>สมัน</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time19">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>สมเสร็จ</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time20">
+
+    <item>เก้งหม้อ</item>
+    <item>นกแต้วแล้วท้องดำ</item>
+    <item>นกกระเรียน</item>
+    <item>นกแก้ว</item>
+
+</string-array>
+    <string-array name="time21">
+
+        <item>กระทิง</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time22">
+
+        <item>นกยูงไทย</item>
+        <item>กระจง</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time23">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>กระต่ายป่า</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time24">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>กวางป่า</item>
+
+    </string-array>
+    <string-array name="time25">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time26">
+
+        <item>นกยูงไทย</item>
+        <item>ตะกวด</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time27">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>งูหลาม</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time28">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>เต่าตะนุ</item>
+
+    </string-array>
+    <string-array name="time29">
+
+        <item>กิ้งก่า</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time30">
+
+    <item>นกยูงไทย</item>
+    <item>ตุ๊กแกป่า</item>
+    <item>นกกระเรียน</item>
+    <item>นกแก้ว</item>
+
+</string-array>
+    <string-array name="time31">
+
+        <item>กบทูต</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time32">
+
+        <item>นกยูงไทย</item>
+        <item>คางคกห้วย</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time33">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>ปู่เจ้าฟ้า</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time34">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>ค่าง</item>
+
+    </string-array>
+    <string-array name="time35">
+
+        <item>ชะนี</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time36">
+
+        <item>นกยูงไทย</item>
+        <item>อีเห็น</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time37">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>ไก่ฟ้า</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time38">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>เหยี่ยว</item>
+
+    </string-array>
+    <string-array name="time39">
+
+        <item>ช้างป่า</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time40">
+
+        <item>นกยูงไทย</item>
+        <item>แร้ง</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time41">
+
+        <item>หมีควาย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time42">
+
+        <item>นกยูงไทย</item>
+        <item>อีเก้ง</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time43">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>ไก่จุก</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time44">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกขุนทอง</item>
+
+    </string-array>
+    <string-array name="time45">
+
+        <item>นกขุนแผน</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time46">
+
+        <item>นกยูงไทย</item>
+        <item>นกเขาเขียว</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time47">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกแสก</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time48">
+
+        <item>นกยูงไทย</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>พังพอน</item>
+
+    </string-array>
+    <string-array name="time49">
+
+        <item>พญากระรอกดำ</item>
+        <item>นกแต้วแล้วท้องดำ</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
+    <string-array name="time50">
+
+        <item>นกยูงไทย</item>
+        <item>วัวแดง</item>
+        <item>นกกระเรียน</item>
+        <item>นกแก้ว</item>
+
+    </string-array>
 
 </resources>

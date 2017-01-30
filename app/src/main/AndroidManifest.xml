@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/opop"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -105,7 +105,38 @@
         <activity android:name=".viewing" />
         <activity android:name=".Gameover" />
         <activity android:name=".QuestionActivity" />
-        <activity android:name=".ShowScoreActivity"></activity>
+        <activity android:name=".ShowScoreActivity" />
+        <activity android:name=".Type1aAnimal" />
+        <activity android:name=".Type1bAnimal" />
+        <activity android:name=".Type1cAnimal" />
+        <activity android:name=".Type1dAnimal" />
+        <activity android:name=".Type1eAnimal" />
+        <activity android:name=".Type1fAnimal" />
+        <activity android:name=".Type1gAnimal" />
+        <activity android:name=".Type1hAnimal" />
+        <activity android:name=".Type1iAnimal" />
+        <activity android:name=".Type1jAnimal" />
+        <activity android:name=".Type1kAnimal" />
+        <activity android:name=".Type1lAnimal" />
+        <activity android:name=".Type1mAnimal" />
+        <activity android:name=".Type1nAnimal" />
+        <activity android:name=".Type2aAnimal" />
+        <activity android:name=".Type2bAnimal" />
+        <activity android:name=".Type2cAnimal" />
+        <activity android:name=".Type2dAnimal" />
+        <activity android:name=".Type2eAnimal" />
+        <activity android:name=".Type2fAnimal" />
+        <activity android:name=".Type2gAnimal" />
+        <activity android:name=".Type2hAnimal" />
+        <activity android:name=".Type2jAnimal" />
+        <activity android:name=".Type2iAnimal" />
+        <activity android:name=".Type2kAnimal" />
+        <activity android:name=".Type2lAnimal" />
+        <activity android:name=".Type2mAnimal" />
+        <activity android:name=".Type2nAnimal" />
+        <activity android:name=".Type2oAnimal" />
+        <activity android:name=".Type2pAnimal" />
+        <activity android:name=".Type2qAnimal" />
     </application>
 
 </manifest>
