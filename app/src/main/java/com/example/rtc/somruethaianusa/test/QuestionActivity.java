@@ -464,7 +464,7 @@ public class QuestionActivity extends AppCompatActivity {
 
     private void checkTime() {
 
-        if (intIndex == 9) {
+        if (intIndex == 49) {
 
             Intent objIntent = new Intent(QuestionActivity.this, ShowScoreActivity.class);
 
@@ -490,7 +490,7 @@ public class QuestionActivity extends AppCompatActivity {
 
     private void bindWidget() {
 
-        txtQuestion = (TextView) findViewById(R.id.textView2);
+        txtQuestion = (TextView) findViewById(R.id.textView24);
         imvIshihara = (ImageView) findViewById(R.id.imageView);
         ragChoice = (RadioGroup) findViewById(R.id.ragChoice);
         radChoice1 = (RadioButton) findViewById(R.id.radioButton);

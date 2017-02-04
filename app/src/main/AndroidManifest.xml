@@ -137,6 +137,7 @@
         <activity android:name=".Type2oAnimal" />
         <activity android:name=".Type2pAnimal" />
         <activity android:name=".Type2qAnimal" />
+        <activity android:name=".HowActivity"></activity>
     </application>
 
 </manifest>

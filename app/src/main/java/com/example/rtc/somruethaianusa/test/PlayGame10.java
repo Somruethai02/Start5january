@@ -26,7 +26,7 @@ public class PlayGame10 extends AppCompatActivity implements View.OnClickListene
         imageView1 = (ImageView) findViewById(R.id.bb);
         imageView2 = (ImageView) findViewById(R.id.cc);
         imageView3 = (ImageView) findViewById(R.id.dd);
-        textView = (TextView) findViewById(R.id.textView20);
+        textView = (TextView) findViewById(R.id.textView29);
 
         imageView1.setOnClickListener(this);
         imageView2.setOnClickListener(this);

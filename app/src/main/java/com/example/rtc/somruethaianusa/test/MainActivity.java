@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickNewPlayGame(View view) {
-        startActivity(new Intent(MainActivity.this, PlayGame1.class));
+        startActivity(new Intent(MainActivity.this, HowActivity.class));
     }
 
     public void clickKnowleage(View view) {

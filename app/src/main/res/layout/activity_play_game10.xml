@@ -35,7 +35,7 @@
         android:text="60 Sec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView20"
+        android:id="@+id/textView29"
         android:textSize="36sp"
         android:textStyle="normal|bold"
         android:textColor="@android:color/white"

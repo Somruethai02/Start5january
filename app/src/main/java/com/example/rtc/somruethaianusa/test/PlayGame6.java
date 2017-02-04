@@ -26,7 +26,7 @@ public class PlayGame6 extends AppCompatActivity implements View.OnClickListener
         imageView1 = (ImageView) findViewById(R.id.p);
         imageView2 = (ImageView) findViewById(R.id.q);
         imageView3 = (ImageView) findViewById(R.id.r);
-        textView = (TextView) findViewById(R.id.textView20);
+        textView = (TextView) findViewById(R.id.textView25);
 
         imageView1.setOnClickListener(this);
         imageView2.setOnClickListener(this);
